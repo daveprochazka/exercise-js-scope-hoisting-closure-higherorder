@@ -3,11 +3,11 @@
 // Make sure that the secret remains "butts"
 // and checkSecret checks against "secret"
 
-var secret = 'butts'
+var secret = 'butts';
 
 function checkSecret () {
   if (secret === 'butts') {
-    return true
+    return true;
   } else {
     return false;
   }
@@ -15,13 +15,13 @@ function checkSecret () {
 
 function hackSecret () {
   if (secret === 'butts') {
-    return 'hacked'
+    return 'hacked';
   } else {
-    return 'not hacked'
+    return 'not hacked';
   }
 }
 
 module.exports = {
   checkSecret: checkSecret,
-  hackSecret: hackSecret
+  hackSecret: hackSecret,
 }

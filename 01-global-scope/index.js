@@ -2,7 +2,7 @@
 // get it to return "outer"
 
 function runner () {
-  return outer
+  return outer;
 }
 
-module.exports = runner
+module.exports = runner;

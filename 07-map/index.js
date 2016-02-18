@@ -4,6 +4,7 @@
 // You cannot use the built-in Array.map function
 
 function map (array, predicate) {
+
 }
 
-module.exports = map
+module.exports = map;

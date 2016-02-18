@@ -3,13 +3,13 @@
 // Fix the problem with this function
 // Something is being hoisted
 
-var secret = 'butts'
+var secret = 'butts';
 
 function getSecret (checkButts) {
   if (!secret) {
-    var secret = 'no secret!'
+    var secret = 'no secret!';
   }
-  return secret
+  return secret;
 }
 
-module.exports = getSecret()
+module.exports = getSecret();

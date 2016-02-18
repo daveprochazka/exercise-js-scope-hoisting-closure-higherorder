@@ -1,16 +1,16 @@
 // There is a 1 letter typo in this file.\
 // Fix it by only changing 1 character!
-var a = 'correct'
+var a = 'correct';
 
 function runner () {
-  return a
+  return a;
 }
 
 function changeBToWrong (b) {
-  a = 'wrong'
-  return b
+  a = 'wrong';
+  return b;
 }
 
-module.exports = runner
+module.exports = runner;
 
-changeBToWrong('hi')
+changeBToWrong('hi');

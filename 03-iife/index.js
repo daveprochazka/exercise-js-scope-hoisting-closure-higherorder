@@ -4,13 +4,13 @@
 // that takes i as an argument
 
 function runner () {
-  var callbacks = []
+  var callbacks = [];
   for (var i=0; i<3; i++) {
     callbacks.push(function () {
-      return i
-    })
+      return i;
+    });
   }
-  return callbacks
+  return callbacks;
 }
 
-module.exports = runner
+module.exports = runner;

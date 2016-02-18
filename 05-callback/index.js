@@ -5,8 +5,8 @@
 
 function doLater () {
   setImmediate(function () {
-    return 1337
+    return 1337;
   })
 }
 
-module.exports = doLater
+module.exports = doLater;
