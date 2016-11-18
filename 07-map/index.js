@@ -3,7 +3,7 @@
 // on each item of an array.
 // You cannot use the built-in Array.map function
 
-function map (array, predicate) {
+function map (array, transformer) {
 
 }
 
